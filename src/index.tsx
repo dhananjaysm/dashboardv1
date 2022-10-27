@@ -13,11 +13,11 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/dashboard",
+        path: "/",
         element: <Dashboard />,
       },
       {
-        path: "/dashboard/:chartId",
+        path: "/:chartId",
         element: <SingleCardLayout />,
       },
     ],
